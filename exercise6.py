@@ -22,4 +22,4 @@ print(f'{day}-й день: {a_km}')  # Вывожу данные за первы
 while a_km < b_km:
     day += 1
     a_km = a_km + (a_km * 0.1)
-    print(f'{round(day, 2)}-й день: {round(a_km, 2)}')
+    print(f'{round(day, 2)}-й день: {round(a_km, 2)}')  # вывожу данные за остальные дни
