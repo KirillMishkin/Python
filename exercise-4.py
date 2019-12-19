@@ -11,4 +11,5 @@ while number < 0:
 else:
     number = str(number)
 
+
 print(max(list(number)))
